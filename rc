@@ -1,0 +1,10 @@
+#/usr/bin/bash
+
+# REMOVE OLD UNWANTED FILES 
+rm config.h patches.h
+
+# COMPILE DWM
+make
+
+# INTSALL COMPILED CODE
+make install
